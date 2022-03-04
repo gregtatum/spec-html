@@ -1,5 +1,5 @@
-# Shadow DOM
+# HTML Spec
 
-This is an example of how the shadow DOM works, and a simple web component.
+This repo is for testing how HTML works.
 
-![A screenshot of the browser.](screenshot.png)
+[Shadow DOM](./shadow-dom)
