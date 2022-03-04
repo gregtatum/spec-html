@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Shadow DOM Example</title>
+  <style>
+    html, body {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      font-family: sans-serif;
+      justify-content: center;
+      flex-flow: column;
+      align-items: center;
+    }
+    section {
+      border: 1px solid #000;
+      padding: 0 20px;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h1>Shadow DOM</h1>
+  </section>
+  <div id="shadow-open"></div>
+  <div id="shadow-closed"></div>
+  <example-component color="#8ff" text="This is the example component"/>
+  <script src="script.js"></script>
+</body>
+</html>
